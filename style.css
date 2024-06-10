@@ -1,0 +1,39 @@
+.form-style {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    width:120px;
+    margin-right: 10px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
